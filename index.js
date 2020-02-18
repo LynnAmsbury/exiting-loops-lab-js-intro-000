@@ -22,7 +22,7 @@ function findBy(array, findFn) {
   for (var i = 0; i < array.length; i++) {
     var value = findFn(array[i]);
     if (value) {
-      return array[i]
+      return array[i];
     }
   }
   return null;
