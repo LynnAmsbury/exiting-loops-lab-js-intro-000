@@ -16,11 +16,3 @@ function keepGoing(array, changeValue, skipValue) {
     array[i]++;
   }
 }
-
-for (let i = 0; i < scores.length; i++) {
-  if (scores[i] >= 10) {
-    continue
-  }
-
-  scores[i]++
-}
